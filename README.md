@@ -22,10 +22,15 @@ Included:
 6) run.bat
 
 Script Execution Steps:
------
-Double click on \\run.bat file (when mvn compiles the code, it downloads all the dependencies to \\.m2\repository)
+-----------------------
+Double click on \\run.bat file (when mvn compiles the code, it downloads all the dependencies to \\.m2\repository).
 OR perform the below steps:
 1) Navigate to the project location in the cmd prompt. Ex: C:\\***\***\webinar
 2) Type mvn clean enter, hit enter(make sure the build is sucessful)
 3) Type mvn compile, hit enter  (make sure the build is sucessful)
 4) Type mvn test, hit enter (Script execution starts at this point
+
+Execution Results:
+-----------------
+ Results are stored in \\webinar\target\sure-fire reports\email-reports
+ 
