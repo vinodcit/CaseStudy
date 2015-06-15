@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Webinar">
+
+<test name="Go TO Webinar Smoke Test">
+    <classes>
+        <class name="com.citrixproject.DriverScript" ></class>  
+    </classes>
+</test>
+
+</suite>

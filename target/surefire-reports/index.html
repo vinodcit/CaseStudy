@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Webinar">
+              <span class="suite-name border-failed">Webinar</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Webinar">
+                    <span>C:\Java\Workspace\webinar\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Webinar">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Webinar">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Webinar">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Webinar">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Webinar">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Webinar">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Webinar" class="hide-methods failed suite-Webinar"> (hide)</a> <!-- hide-methods failed suite-Webinar -->
+                      <a href="#" panel-name="suite-Webinar" class="show-methods failed suite-Webinar"> (show)</a> <!-- show-methods failed suite-Webinar -->
+                    </span>
+                    <div class="method-list-content failed suite-Webinar">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Webinar" title="com.citrixproject.DriverScript" hash-for-method="validateSavedWebinar">validateSavedWebinar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Webinar -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Webinar" class="hide-methods passed suite-Webinar"> (hide)</a> <!-- hide-methods passed suite-Webinar -->
+                      <a href="#" panel-name="suite-Webinar" class="show-methods passed suite-Webinar"> (show)</a> <!-- show-methods passed suite-Webinar -->
+                    </span>
+                    <div class="method-list-content passed suite-Webinar">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Webinar" title="com.citrixproject.DriverScript" hash-for-method="LaunchWebinarBrowser">LaunchWebinarBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Webinar" title="com.citrixproject.DriverScript" hash-for-method="gettingTestData">gettingTestData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Webinar" title="com.citrixproject.DriverScript" hash-for-method="scheduleAWebinarPage">scheduleAWebinarPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Webinar" title="com.citrixproject.DriverScript" hash-for-method="validateWebinarLoginPage">validateWebinarLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Webinar -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Webinar" class="panel Webinar">
+          <div class="suite-Webinar-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.citrixproject.DriverScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSavedWebinar">
+                  </a> <!-- validateSavedWebinar -->
+                  <span class="method-name">validateSavedWebinar</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=43.0.2357.124)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.96 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;KV&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\Vinodh\AppData\Local\Temp\scoped_dir1716_23290}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=43.0.2357.124, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5f2c34f891a806c71139069ab8a268d0
+*** Element info: {Using=xpath, value=//span[text()=&apos;Auto_Title_1434338808072&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.citrixproject.Util.checkElementByXpath(Util.java:81)
+	at com.citrixproject.MyWebinar.validateMyWebinarTitle(MyWebinar.java:13)
+	at com.citrixproject.DriverScript.validateSavedWebinar(DriverScript.java:78)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Webinar-class-failed -->
+          <div class="suite-Webinar-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.citrixproject.DriverScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchWebinarBrowser">
+                  </a> <!-- LaunchWebinarBrowser -->
+                  <span class="method-name">LaunchWebinarBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gettingTestData">
+                  </a> <!-- gettingTestData -->
+                  <span class="method-name">gettingTestData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scheduleAWebinarPage">
+                  </a> <!-- scheduleAWebinarPage -->
+                  <span class="method-name">scheduleAWebinarPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWebinarLoginPage">
+                  </a> <!-- validateWebinarLoginPage -->
+                  <span class="method-name">validateWebinarLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Webinar-class-passed -->
+        </div> <!-- panel Webinar -->
+        <div panel-name="test-xml-Webinar" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Java\Workspace\webinar\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Webinar&quot;&gt;
+  &lt;test name=&quot;Go TO Webinar Smoke Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.citrixproject.DriverScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Go TO Webinar Smoke Test --&gt;
+&lt;/suite&gt; &lt;!-- Webinar --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Webinar" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Webinar</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Go TO Webinar Smoke Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Webinar" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Webinar</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Webinar" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Webinar</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Webinar');
+function tableData_Webinar() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'scheduleAWebinarPage')
+data.setCell(0, 2, 'com.citrixproject.DriverScript')
+data.setCell(0, 3, 16628);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LaunchWebinarBrowser')
+data.setCell(1, 2, 'com.citrixproject.DriverScript')
+data.setCell(1, 3, 16557);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateSavedWebinar')
+data.setCell(2, 2, 'com.citrixproject.DriverScript')
+data.setCell(2, 3, 10436);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateWebinarLoginPage')
+data.setCell(3, 2, 'com.citrixproject.DriverScript')
+data.setCell(3, 3, 10196);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'gettingTestData')
+data.setCell(4, 2, 'com.citrixproject.DriverScript')
+data.setCell(4, 3, 713);
+window.suiteTableData['Webinar']= { tableData: data, tableDiv: 'times-div-Webinar'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-Webinar">
+              </div> <!-- times-div-Webinar -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Webinar" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Webinar</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Webinar" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Webinar" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.citrixproject.DriverScript</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">gettingTestData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LaunchWebinarBrowser</span>
+                <span class="method-start">721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateWebinarLoginPage</span>
+                <span class="method-start">17280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scheduleAWebinarPage</span>
+                <span class="method-start">27481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateSavedWebinar</span>
+                <span class="method-start">44112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">ClosingAllBrowsers</span>
+                <span class="method-start">54584 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
